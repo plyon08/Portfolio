@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+body {
+  font-size:16px;
+  font-family:'Nunito', Verdana, sans-serif;
+  letter-spacing:2px;
+  color:rgb(200,200,200);
+  width:100%;
+  overflow:auto;
+	background-image:url(https://paullyon.info/img/bgwaves.jpg);
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+}
+header {
+  text-align:center
+}
+
+/**************************Content**********************************/
+
+.fright {float:right}
+.fleft {float:left}
+.center {text-align:center}
+
+.heading {
+  font-weight:700;
+  font-size:3em;
+}
+.contact {
+  text-align:center
+}
+.subheading {
+  font-weight:700;
+  text-align:center
+}
+.contact a {
+  font-size:1.3em;
+  font-weight:700;
+  text-decoration:none;
+  color:rgb(200,200,200);
+  margin:10px;
+  transition: color .3s
+}
+.contact a:link, .contact a:visited {
+  text-decoration:none;
+  color:rgb(200,200,200)
+}
+.contact a:hover, .contact a:focus {
+  text-decoration:none;
+  color:rgb(0,111,151);
+  transition: color .3s
+}
+.skills-heading {
+  font-size:2em;
+  font-weight:700
+}
+.skills-list {
+  padding:10px
+}
+.bg-25 {
+  background-color:rgba(25,25,25,.8);
+  width:100%;
+  height:100vh;
+  margin:0px;
+  padding:0px 0px
+}
+.section-bg-25 {
+  background-color:rgba(25,25,25,.8);
+  width:100%;
+  height:100%;
+  margin:150px 0px;
+  padding:50px 0px
+}
+.section-bg-25:last-child {
+  margin:0px
+}
+.section-img > img {
+  width:100%;
+  height:auto
+}
+.section-link {
+  margin:30px
+}
+.section-link a {
+  font-size:1em;
+  text-decoration:none;
+  color:rgb(200,200,200);
+  background-color:rgb(0,111,151);
+  border-radius:25px;
+  padding:12px;
+  transition: background-color .3s
+}
+.section-link a:link, .section-link a:visited {
+  text-decoration:none;
+  color:rgb(200,200,200);
+}
+.section-link a:hover, .section-link a:focus {
+  text-decoration:none;
+  color:rgb(200,200,200);
+  background-color:rgb(0, 82, 112);
+  transition: background-color .3s
+}
+.section-link p {
+  background-color:rgb(0,111,151);
+  border-radius:25px;
+  display:inline-flex
+}
+
+
+/***********************Larger than 992px*****************************/
+@media screen and (min-width:62em) {
+  .heading {
+    font-size:5em;
+    padding:40px 0px
+  }
+  .subheading {
+    font-size:2em
+  }
+  .section-bg-25 {
+    padding:100px 0px
+  }
+  .skills-heading {
+    font-size:2.5em
+  }
+  .skills-list {
+    font-size:1.5em
+  }
+  .section-img > img {
+    width:60%;
+    height:auto
+  }
+  .section-link a {
+    font-size:1.5em
+  }
+  .section-site-info {
+    font-size:1.5em
+  }
+  #tel {top:0px;left:30px;position:fixed}
+  #mail {top:0px;right:30px;position:fixed}
+}
+
+/* 
+payment x0uZapVa]MU!
+support Mcc5L#&I}AD7
+herfdog gwx.LWUz&2Wu 
+*/
